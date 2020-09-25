@@ -1,0 +1,45 @@
+.Service {
+  margin: 50px auto;
+  width: 90%;
+}
+.Service h2 {
+  margin-bottom: 40px;
+  font-family: "Rajdhani", sans-serif;
+}
+.Service .services-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.services-container .services {
+  border: 1px solid #cccc;
+  padding: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  line-height: 1.6em;
+  font-family: "Lato", sans-serif;
+}
+
+.services-container .service-middle {
+  margin: 0 13px 0 13px;
+}
+
+.services-container .services i {
+  font-size: 40px;
+  color: #2076d5;
+  margin-right: 15px;
+}
+
+.services-container .services h3 {
+  margin: 0;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.services-container .services p {
+  margin-top: 10px;
+}
+.Service span {
+  color: #2076d5;
+}
