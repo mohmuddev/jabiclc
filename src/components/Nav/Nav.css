@@ -1,33 +1,42 @@
-.nav{
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px #ccc solid;
-    justify-content: flex-end;
-    height: 70px;
+.nav {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 70px;
+  background: transparent;
+  width: 100%;
+  position: fixed;
+  color: #ffffff;
 }
-.nav .logo{
-    margin-right: auto;
-    margin-left: 30px;
+.nav .logo {
+  margin-right: auto;
+  margin-left: 30px;
 }
-.nav img{
-    height: 70px;
+.nav img {
+  height: 70px;
 }
-.nav ul{
-  margin: 0 ; 
+.nav ul {
+  margin: 0;
   padding: 0;
 }
 
-.nav li{
-    display: inline;
-    margin-right: 30px;
+.nav li {
+  display: inline;
+  margin-right: 45px;
+  cursor: pointer;
 }
 
-.nav .cta-menu{
-    display: flex;
-    font-size: 16px;
-    justify-content: center;
-    margin-right: 40px;
+.nav .cta-menu {
+  display: flex;
+  font-size: 17px;
+  justify-content: center;
+  margin-right: 40px;
+  align-items: center;
+}
+
+.cta-menu i {
+  font-size: 30px;
+  margin-right: 6px;
 }

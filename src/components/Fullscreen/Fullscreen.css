@@ -1,0 +1,45 @@
+.Fullscreen {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-image: url(./Shape.webp);
+  background-position: left;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+}
+.Fullscreen .fullscrn-image,
+.fullscrn-content {
+  margin-top: 130px;
+}
+.Fullscreen .fullscrn-content {
+  width: 35%;
+  margin-top: 200px;
+}
+
+.Fullscreen button {
+  padding: 15px 30px;
+  border-radius: 30px;
+  margin-top: 20px;
+  border: none;
+  color: #ffffff;
+  background: #3d69e2;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+.fullscrn-content h1 {
+  font-family: "Rajdhani", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.fullscrn-content p {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5em;
+}
+.fullscrn-image {
+  pointer-events: none;
+}
