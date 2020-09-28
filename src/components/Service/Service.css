@@ -43,3 +43,20 @@
 .Service span {
   color: #2076d5;
 }
+
+.services svg {
+  color: #2076d5;
+  display: inline-block;
+  width: 512px;
+  height: 512px;
+}
+.Service .services:hover {
+  background-color: #2076d5;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.Service .services:hover > i {
+  color: #fff;
+  transition: all 0.3s ease;
+}

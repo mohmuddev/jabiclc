@@ -4,9 +4,36 @@ import Logo from "./jabilogo.webp";
 import { MicrophoneIcon } from "react-line-awesome";
 
 class Nav extends Component {
+  componentDidMount() {
+    window.addEventListener("scroll", () => {
+      const isTop = window.scrollY;
+      const nav = document.getElementById("nav");
+      const menu = document.querySelectorAll("#nav li");
+
+      menu.forEach((element) => {
+        if (isTop > 50) {
+          element.classList.add("newMenu");
+        }
+        if (isTop < 50) {
+          element.classList.remove("newMenu");
+        }
+      });
+
+      if (isTop > 50) {
+        nav.classList.add("scrolled");
+        
+      } else {
+        nav.classList.remove("scrolled");
+        
+      }
+    });
+  }
+  componentWillUnmount() {
+    window.removeEventListener("scroll");
+  }
   render() {
     return (
-      <div className="nav">
+      <div className="nav" id="nav">
         <div className="logo">
           <img src={Logo} alt="Logo" />
         </div>

@@ -1,12 +1,11 @@
 import React from "react";
 import "./Service.css";
 import { EditIcon } from "react-line-awesome";
-import { MicrophoneIcon } from "react-line-awesome";
 import { BuildingIcon } from "react-line-awesome";
 import { TruckIcon } from "react-line-awesome";
-import { TruckLoadingIcon } from "react-line-awesome";
-import Icon from "@mdi/react";
-import { mdiAccount } from "@mdi/js";
+import { CarIcon } from "react-line-awesome";
+import { TintIcon } from "react-line-awesome";
+import { UserIcon } from "react-line-awesome";
 
 const Services = () => {
   return (
@@ -38,7 +37,7 @@ const Services = () => {
           </div>
         </div>
         <div className="services">
-          <Icon path={mdiAccount} color = "red"/>
+          <UserIcon />
           <div>
             <h3>Construction Consultant</h3>
             <p>
@@ -53,7 +52,7 @@ const Services = () => {
         <div className="services">
           <TruckIcon />
           <div>
-            <h3>Subheader service</h3>
+            <h3>Transport Service</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad,
               minus vitae cum quia quisquam pariatur dolorem eaque vel non
@@ -62,9 +61,9 @@ const Services = () => {
           </div>
         </div>
         <div className="services service-middle">
-          <TruckLoadingIcon />
+          <CarIcon />
           <div>
-            <h3>Subheader service</h3>
+            <h3>Car Rent</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad,
               minus vitae cum quia quisquam pariatur dolorem eaque vel non
@@ -73,9 +72,9 @@ const Services = () => {
           </div>
         </div>
         <div className="services">
-          <MicrophoneIcon />
+          <TintIcon />
           <div>
-            <h3>Subheader service</h3>
+            <h3>Food & Water Logistics</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad,
               minus vitae cum quia quisquam pariatur dolorem eaque vel non

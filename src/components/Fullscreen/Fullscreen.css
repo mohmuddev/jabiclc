@@ -13,7 +13,7 @@
 }
 .Fullscreen .fullscrn-image,
 .fullscrn-content {
-  margin-top: 130px;
+  margin-top: 110px;
 }
 .Fullscreen .fullscrn-content {
   width: 35%;
@@ -30,6 +30,7 @@
   font-family: "Rajdhani", sans-serif;
   font-size: 18px;
   cursor: pointer;
+  outline: none;
 }
 .fullscrn-content h1 {
   font-family: "Rajdhani", sans-serif;
@@ -42,4 +43,5 @@
 }
 .fullscrn-image {
   pointer-events: none;
+ 
 }

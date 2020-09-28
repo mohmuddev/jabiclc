@@ -40,3 +40,20 @@
   font-size: 30px;
   margin-right: 6px;
 }
+
+/* Javscript scroll event*/
+.scrolled {
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+}
+
+.scrolled .newMenu {
+  color: black;
+  transition: none;
+}
+.scrolled .cta-menu{
+  color: black;
+}
+.scrolled .cta-menu > i{
+  color: #3D69E2
+}

@@ -5,8 +5,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: -50px;
+  margin-top: -40px;
   font-family: "Rajdhani", sans-serif;
+  z-index: 10;
 }
 .Bar h3 {
   text-transform: uppercase;
@@ -21,5 +22,5 @@
   font-size: 16px;
   font-weight: 600;
   font-family: "Rajdhani", sans-serif;
+  outline: none;
 }
- 
