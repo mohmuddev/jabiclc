@@ -57,3 +57,7 @@ box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06
 .scrolled .cta-menu > i{
   color: #3D69E2
 }
+.scrolled .newMenu:hover{
+  color: #3D69E2;
+  transition: all 0.3s ease;
+}
