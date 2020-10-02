@@ -1,0 +1,196 @@
+.Propect {
+  font-family: "Rajdhani", sans-serif;
+  margin-top: 200px;
+  padding: 50px;
+  background-color: #2951cd;
+  background-image: url(./Shape-project-1.webp), url(./Shape-project-2.webp);
+  background-repeat: no-repeat;
+  background-position-x: -80px, 790px;
+}
+.Propect h2 {
+  margin-left: 68px;
+  color: #fff;
+}
+.Propect h2 span {
+  color: #ffd503;
+  font-size: 24px;
+}
+
+.portfolio__labels {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto 5px;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.portfolio__labels span {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 0.8em;
+  cursor: pointer;
+  padding: 10px 28px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.portfolio__container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 200px;
+  justify-content: center;
+  grid-gap: 20px;
+  margin: 20px auto 0;
+}
+.portfolio__container div:not(.buttons) {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 5px;
+  border-radius: 4px;
+    border: 2px solid #fff;
+
+}
+.Propect .referenceApp,
+.webagency,
+.HappyNewYear,
+.saas {
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.referenceApp {
+  background-image: url(./villa.webp);
+}
+.webagency {
+  background-image: url(./transport.webp);
+  background-position: left !important;
+}
+.HappyNewYear {
+  background-image: url(./images.webp);
+}
+.saas {
+  background-image: url(./hilux.webp);
+}
+
+.Propect .buttons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 0%;
+  background: rgba(0, 0, 0, 0.507);
+  border-radius: 0 0 4px 4px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Propect .buttons h4 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+}
+.Propect .buttons section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Propect .buttons section a {
+  padding: 5px 20px;
+  background-color: rgb(255, 251, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  color: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Propect .buttons section a svg {
+  margin-right: 7px;
+}
+.Propect .referenceApp:hover .buttons {
+  height: 100% !important;
+  transition: all 0.5s ease;
+}
+.Propect .webagency:hover .buttons {
+  height: 100% !important;
+  transition: all 0.5s ease;
+}
+.Propect .HappyNewYear:hover .buttons {
+  height: 100% !important;
+  transition: all 0.5s ease;
+}
+.Propect .saas:hover .buttons {
+  height: 100% !important;
+  transition: all 0.5s ease;
+}
+
+@media only screen and (max-width: 1024px) {
+  .portfolio__container {
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 200px 200px;
+  }
+  .portfolio__labels {
+    flex-wrap: wrap;
+  }
+  .portfolio__labels {
+    width: 85%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+  }
+  .portfolio__labels span {
+    padding: 8px 15px;
+  }
+}
+
+.Propect {
+  font-family: "Rajdhani", sans-serif;
+  margin-top: 50px;
+}
+.Propect span {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 670px) {
+  .portfolio__container {
+    grid-template-columns: 300px;
+    grid-template-rows: 200px 200px 200px 200px;
+  }
+  .portfolio__labels {
+    width: 85%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+  }
+  .portfolio__labels span {
+    padding: 8px 15px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .portfolio__labels {
+    width: 90%;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .portfolio__labels span {
+    padding: 8px 13px;
+    margin-right: 0;
+  }
+  .portfolio__container {
+    grid-template-columns: 360px;
+    grid-template-rows: 230px 230px 230px 230px;
+  }
+}

@@ -1,0 +1,85 @@
+.contact {
+  background-image: url(./contact-background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -30px;
+  background-attachment: fixed;
+}
+.contact .overlay {
+  background-color: rgba(0, 0, 0, 0.342);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+form {
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.425);
+  width: 40%;
+}
+form h2 {
+  color: #ffffff;
+  font-family: "Rajdhani", sans-serif;
+}
+form h2 span {
+  color: #ffd503;
+}
+form div {
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+form label {
+  display: block;
+  color: #ffffff;
+  font-family: "Rajdhani", sans-serif;
+}
+
+form .right {
+  margin-left: 20px;
+}
+
+form input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #cfcfcf;
+  outline: none;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+form .text-area {
+  margin-top: 30px;
+}
+form textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #cfcfcf;
+  width: 100%;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  outline: none;
+}
+form button {
+  display: block;
+  margin-top: 30px;
+  background: #ffd503;
+  padding: 10px 35px;
+  font-size: 18px;
+  font-family: "Rajdhani", sans-serif;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+}
+
+form div span {
+  width: 100%;
+}

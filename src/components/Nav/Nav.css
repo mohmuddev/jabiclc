@@ -9,6 +9,7 @@
   width: 100%;
   position: fixed;
   color: #ffffff;
+  z-index: 1000;
 }
 .nav .logo {
   margin-right: auto;
@@ -55,7 +56,7 @@ box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06
   color: black;
 }
 .scrolled .cta-menu > i{
-  color: #3D69E2
+  color: #3D69E2;
 }
 .scrolled .newMenu:hover{
   color: #3D69E2;
