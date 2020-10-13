@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./Nav.css";
 import Logo from "./jabilogo.webp";
 import { MicrophoneIcon } from "react-line-awesome";
+import Icon from "@mdi/react";
+import { mdiMenu } from "@mdi/js";
 
 class Nav extends Component {
   componentDidMount() {
@@ -51,6 +53,7 @@ class Nav extends Component {
             <span>info@jabiclc.com</span>
           </div>
         </div>
+        <Icon path={mdiMenu} size={1.3} color="#F7BD02" className="hamburger" />
       </div>
     );
   }

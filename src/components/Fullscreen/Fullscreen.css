@@ -43,5 +43,29 @@
 }
 .fullscrn-image {
   pointer-events: none;
- 
+}
+
+@media only screen and (max-width: 480px) {
+  .Fullscreen {
+    background-color: #4470ea;
+  }
+  .Fullscreen .fullscrn-image {
+    display: none;
+  }
+  .fullscrn-content {
+    margin-top: 80px !important;
+    width: 80% !important;
+    color: #fff;
+    text-align: center;
+  }
+  .fullscrn-content button {
+    margin: 10px auto;
+    background-color: #ffd503;
+    color: #333333;
+    font-weight: 600;
+  }
+
+  .fullscrn-content h1{
+    font-size: 23px;
+  }
 }

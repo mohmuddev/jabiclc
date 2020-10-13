@@ -62,3 +62,27 @@ box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06
   color: #3D69E2;
   transition: all 0.3s ease;
 }
+
+.hamburger{
+  display: none;
+}
+
+
+
+/*--small screen sice---*/
+@media only screen and (max-width:480px){
+ .nav ul{
+   display: none;
+ }
+ .nav .cta-menu{
+   display: none;
+ }
+ .hamburger{
+   display: block;
+   margin-right: 30px;
+ }
+
+ .nav .logo img{
+   height: 58px;
+ }
+}
