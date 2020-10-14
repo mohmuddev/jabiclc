@@ -83,3 +83,20 @@ form button {
 form div span {
   width: 100%;
 }
+
+
+@media only screen and (max-width: 480px) {
+  .contact .overlay{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+  }
+  form{
+    margin: 10px auto;
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+}

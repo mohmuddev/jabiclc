@@ -74,3 +74,92 @@ footer p {
 .Footer .newsletter svg:hover {
   color: #ffd503;
 }
+.Footer {
+  background-image: linear-gradient(#0a2f7e, #00065b);
+  margin-bottom: 0;
+  color: #ffff;
+  font-family: "Rajdhani", sans-serif;
+  line-height: 1.9em;
+  padding-top: 10px;
+}
+.Footer h3 {
+  font-family: "Rajdhani", sans-serif;
+}
+.Footer img {
+  height: 80px;
+}
+footer p {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+}
+.Footer .footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+.Footer .footer-content ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+.Footer .brand {
+  width: 30%;
+}
+.Footer .footer-bottom {
+  border-top: 1px solid rgba(204, 204, 204, 0.315);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Footer .newsletter {
+  width: 25%;
+}
+.Footer .newsletter button {
+  background-color: #ffd503;
+  padding: 8px 18px;
+  border: 2px solid #ffd503;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Footer .newsletter div {
+  background-color: #fff;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Footer .newsletter input {
+  border: none;
+  outline: none;
+  padding: 6px auto;
+}
+
+.Footer .newsletter .social {
+  display: block;
+  margin-top: 25px;
+  width: 50%;
+}
+
+.Footer .newsletter svg {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.Footer .newsletter svg:hover {
+  color: #ffd503;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+  .footer-content{
+    flex-wrap: wrap;
+  }
+  .footer-content > div{
+    display: block;
+    width: 90% !important;
+  }
+}
