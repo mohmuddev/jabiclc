@@ -4,10 +4,8 @@ import LogoFooter from "./loofooter.webp";
 import Icon from "@mdi/react";
 import { mdiFacebook } from "@mdi/js";
 import { mdiTwitter } from "@mdi/js";
-import { mdiLinkedin } from '@mdi/js';
+import { mdiLinkedin } from "@mdi/js";
 import { mdiPinterest } from "@mdi/js";
-
-
 
 const Footer = () => {
   return (
@@ -16,10 +14,11 @@ const Footer = () => {
         <div className="brand">
           <img src={LogoFooter} alt="logoFooter" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-            eligendi laboriosam odit corporis possimus, eum fugit ipsam rerum
-            facere eveniet, quod fuga suscipit vero itaque repellat! Ipsum,
-            animi. Perspiciatis, impedit.
+            Jabi Logistics and Construction Companay s is a Kismayo based
+            logistics and construction company providing, Logistics/Cargo/Full
+            Load/ Part Load services and Construction as well. We are offer best
+            & quickest logistics movements to all over Somalial to our esteemed
+            customers.
           </p>
         </div>
         <div>
@@ -40,7 +39,7 @@ const Footer = () => {
           </h2>
           <p>Kipora, Farjano Kismayo</p>
           <p>Mon - Sat 7:00 - 18:00</p>
-          <p>(252)617-758-011</p>
+          <p>(+252)616-385-966</p>
           <p>info@jabicli.com</p>
         </div>
         <div className="newsletter">
@@ -48,8 +47,8 @@ const Footer = () => {
             <span>News</span>letter
           </h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
-            distinctio,
+            Subscribe to our weekly newsletter to receive the latest news and
+            updates.
           </p>
           <div>
             <input type="email" name="" id="" />

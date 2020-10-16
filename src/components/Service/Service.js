@@ -19,9 +19,9 @@ const Services = () => {
           <div>
             <h3>Drawing and Ideation</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad,
-              minus vitae cum quia quisquam pariatur dolorem eaque vel non
-              facilis doloremque.
+              Our team is dedicated to meeting the needs and fulfilling the
+              dreams of our clients. We strive to provide design and artitecture
+              service with an expert level of knowledge and experience.
             </p>
           </div>
         </div>
@@ -30,9 +30,9 @@ const Services = () => {
           <div>
             <h3>Construction and Building</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad,
-              minus vitae cum quia quisquam pariatur dolorem eaque vel non
-              facilis doloremque.
+              With over 5 years of experience in the construction industry, we
+              offer quality workmanship with acute attention to detail in the
+              building and renovation of commercial and residential properties.
             </p>
           </div>
         </div>
@@ -41,9 +41,9 @@ const Services = () => {
           <div>
             <h3>Construction Consultant</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad,
-              minus vitae cum quia quisquam pariatur dolorem eaque vel non
-              facilis doloremque.
+              For Temporary and Permanent Works Design consultancy delivered
+              promptly, tap into our wealth of experience to bring efficient
+              transport and construction solutions to your projects
             </p>
           </div>
         </div>
@@ -54,20 +54,21 @@ const Services = () => {
           <div>
             <h3>Transport Service</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad,
-              minus vitae cum quia quisquam pariatur dolorem eaque vel non
-              facilis doloremque.
+              Our professional Logistics company offer customs clearance
+              services for relocation from city to city through raod. Our
+              nationally licensed staff work closely with clients to help.
             </p>
           </div>
         </div>
         <div className="services service-middle">
           <CarIcon />
           <div>
-            <h3>Car Rent</h3>
+            <h3>Vehicle Rent</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad,
-              minus vitae cum quia quisquam pariatur dolorem eaque vel non
-              facilis doloremque.
+              We offer long term hire/rental services at very competitive
+              monthly rate. Automatic or manual transmission vehicles are
+              available. We deliver vehicles at client's door step or airport on
+              arrival.
             </p>
           </div>
         </div>
@@ -76,9 +77,9 @@ const Services = () => {
           <div>
             <h3>Food & Water Logistics</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad,
-              minus vitae cum quia quisquam pariatur dolorem eaque vel non
-              facilis doloremque.
+              We offer to our clients,a cost effective,secure,timely and
+              efficient solution for all logistic services such as food and
+              water and other demands, to and from any point in the Somalia.
             </p>
           </div>
         </div>

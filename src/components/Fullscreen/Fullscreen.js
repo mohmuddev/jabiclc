@@ -8,8 +8,8 @@ const Fullscreen = () => {
       <div className="fullscrn-content">
         <h1>We build your future with construction and Logistics</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem cumque,
-          cupiditate quod, beatae neque magni quam dignissimos nam
+          If you're looking for an advocate to assist you through construction
+          and logistic services, look no further!
         </p>
         <button>View Our Profile</button>
       </div>

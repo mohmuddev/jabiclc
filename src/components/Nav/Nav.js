@@ -49,7 +49,7 @@ class Nav extends Component {
         <div className="cta-menu">
           <MicrophoneIcon />
           <div>
-            <span>+25261774850</span> <br />
+            <span>(+252)616-385-966</span> <br />
             <span>info@jabiclc.com</span>
           </div>
         </div>
