@@ -23,10 +23,8 @@ class Nav extends Component {
 
       if (isTop > 50) {
         nav.classList.add("scrolled");
-        
       } else {
         nav.classList.remove("scrolled");
-        
       }
     });
   }
@@ -50,10 +48,16 @@ class Nav extends Component {
           <MicrophoneIcon />
           <div>
             <span>(+252)616-385-966</span> <br />
-            <span>info@jabiclc.com</span>
+            <span>hussein@jabiclc.com</span>
           </div>
         </div>
-        <Icon path={mdiMenu} size={1.3} color="#F7BD02" className="hamburger" />
+        <Icon
+          path={mdiMenu}
+          size={1.3}
+          color="#F7BD02"
+          className="hamburger"
+          onClick={this.props.show}
+        />
       </div>
     );
   }
