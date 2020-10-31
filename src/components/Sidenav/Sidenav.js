@@ -20,7 +20,19 @@ const Sidedrow = (props) => {
           <li>
             <Link
               activeClass="active"
-              to="section1"
+              to="Home"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="Service"
               spy={true}
               smooth={true}
               offset={-70}
@@ -32,7 +44,7 @@ const Sidedrow = (props) => {
           <li>
             <Link
               activeClass="active"
-              to="About"
+              to="Profile"
               spy={true}
               smooth={true}
               offset={-70}
@@ -44,7 +56,7 @@ const Sidedrow = (props) => {
           <li>
             <Link
               activeClass="active"
-              to="Pricing"
+              to="Project"
               spy={true}
               smooth={true}
               offset={-70}
@@ -56,7 +68,7 @@ const Sidedrow = (props) => {
           <li>
             <Link
               activeClass="active"
-              to="Project"
+              to="Contact"
               spy={true}
               smooth={true}
               offset={-70}

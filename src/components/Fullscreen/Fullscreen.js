@@ -4,7 +4,7 @@ import Logo from "./fulls-image.webp";
 
 const Fullscreen = () => {
   return (
-    <div className="Fullscreen">
+    <div className="Fullscreen" id="Home">
       <div className="fullscrn-content">
         <h1>We build your future with construction and Logistics</h1>
         <p>

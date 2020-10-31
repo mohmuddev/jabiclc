@@ -9,7 +9,7 @@ import { UserIcon } from "react-line-awesome";
 
 const Services = () => {
   return (
-    <div className="Service">
+    <div className="Service" id="Service">
       <h2>
         Our core <span>Services</span>
       </h2>

@@ -4,6 +4,7 @@ import Logo from "./jabilogo.webp";
 import { MicrophoneIcon } from "react-line-awesome";
 import Icon from "@mdi/react";
 import { mdiMenu } from "@mdi/js";
+import { Link } from "react-scroll";
 
 class Nav extends Component {
   componentDidMount() {
@@ -38,11 +39,66 @@ class Nav extends Component {
           <img src={Logo} alt="Logo" />
         </div>
         <ul>
-          <li>Home</li>
-          <li>Sevices</li>
-          <li>Profile</li>
-          <li>Porfolio</li>
-          <li>Contact</li>
+          <li>
+            <Link
+              activeClass="active"
+              to="Home"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="Service"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Services
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="Profile"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Profile
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="Project"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              portfolio
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="Contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
         <div className="cta-menu">
           <MicrophoneIcon />
